@@ -1,0 +1,29 @@
+$primary: #24bd73;
+$danger: #ff4136;
+
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger
+);
+
+:root {
+  --border-radius: 12px;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
